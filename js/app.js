@@ -1,5 +1,5 @@
 
-// income calculation section =============================================================================
+// =====================================income calculation section ==================================================
 
 document.getElementById('calculate-cost').addEventListener('click', function () {
 
@@ -45,21 +45,7 @@ document.getElementById('calculate-cost').addEventListener('click', function () 
         previousBalanceAmont.innerText = remainBalance;
     }
 
-
-
-
-
-    //  catch total expences field
-
-
-
-
-
-
-
 })
-
-
 
 // ======================================= savings calculation section =================================================
 
@@ -113,7 +99,6 @@ const savings = document.getElementById('saving-button').addEventListener('click
     const totalCost = foodCost + rentCost + clothesCost;
 
 
-
     // totalcost 
 
     const totalExpences = document.getElementById('total-expences');
@@ -126,7 +111,6 @@ const savings = document.getElementById('saving-button').addEventListener('click
 
     const remainBalance = newIncomeAmount - totalCost;
     // get remaion balance from income field 
-
 
 
     const totalRemainBalance = remainBalance - savingPercent;
