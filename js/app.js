@@ -134,4 +134,8 @@ const savings = document.getElementById('saving-button').addEventListener('click
 
 
     remainingBalance.innerText = totalRemainBalance;
+
+    foodCostInput.value = '';
+    rentCostInput.value = '';
+    clothesCostInput.value = '';
 })
