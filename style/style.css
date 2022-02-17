@@ -1,0 +1,82 @@
+
+body{
+    margin: 0;
+}
+.income-style{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header-style {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #31A5AC;
+   
+}
+.heading-style{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+
+
+.image-size{
+    width: 100%;
+}
+.background-color{
+    height: 44px;
+    width:229px;
+    padding:5px;
+    background-color: #DCDCDC;
+    border: 0;
+    border-radius: 3px;
+    
+}
+.button-color{
+    
+    background-color: #59A5FF;
+    width: 199px;
+    border:0;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    font-weight: 700px;
+    font-size: 20px;
+}
+.spacing{
+    text-align:end;
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+.savings-input{
+    height: 44px;
+    width:132px;
+    padding:5px;
+    background-color: #DCDCDC;
+    border: 0;
+    border-radius: 3px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    
+}
+.saving-button{
+    background-color: #59A5FF;
+    width: 173px;
+    border:0;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    font-weight: 700px;
+    font-size: 20px;
+    margin-left: 15px;
+}
