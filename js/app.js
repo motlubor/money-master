@@ -132,10 +132,11 @@ const savings = document.getElementById('saving-button').addEventListener('click
     const totalRemainBalance = remainBalance - savingPercent;
     console.log(totalRemainBalance);
 
-
     remainingBalance.innerText = totalRemainBalance;
 
     foodCostInput.value = '';
     rentCostInput.value = '';
     clothesCostInput.value = '';
+
+
 })
