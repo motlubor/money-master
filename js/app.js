@@ -14,31 +14,46 @@ document.getElementById('calculate-cost').addEventListener('click', function () 
     const clothesCostInput = document.getElementById('clothes-cost');
     const clothesCost = parseFloat(clothesCostInput.value);
 
-    // sum of all input field value 
+    // sum of all input field value ==========================//////////////////////////==============================
+    if (foodCost < 0) {
+        totalCost = false;
+    }
+    else if (rentCost < 0) {
 
-    const totalCost = foodCost + rentCost + clothesCost;
+    }
+    else if (clothesCost < 0) {
+
+    }
+    else {
+        const totalCost = foodCost + rentCost + clothesCost;
+        const totalExpences = document.getElementById('total-expences');
+
+        totalExpences.innerText = totalCost;
+        // cath income field 
+        const previousIncomeAmount = document.getElementById('income-amount').value;
+        const newIncomeAmount = parseFloat(previousIncomeAmount);
+
+
+        // catch balance text 
+        const previousBalanceAmont = document.getElementById('balance');
+        const newBalanceAmount = parseFloat(previousBalanceAmont.innerText);
+
+        const remainBalance = newIncomeAmount - totalCost;
+
+        // set the value of remaion balance 
+
+        previousBalanceAmont.innerText = remainBalance;
+    }
+
+
+
 
 
     //  catch total expences field
-    const totalExpences = document.getElementById('total-expences');
-
-    totalExpences.innerText = totalCost;
 
 
-    // cath income field 
-    const previousIncomeAmount = document.getElementById('income-amount').value;
-    const newIncomeAmount = parseFloat(previousIncomeAmount);
 
 
-    // catch balance text 
-    const previousBalanceAmont = document.getElementById('balance');
-    const newBalanceAmount = parseFloat(previousBalanceAmont.innerText);
-
-    const remainBalance = newIncomeAmount - totalCost;
-
-    // set the value of remaion balance 
-
-    previousBalanceAmont.innerText = remainBalance;
 
 
 
