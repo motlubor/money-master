@@ -1,4 +1,5 @@
 
+// income calculation section =============================================================================
 
 document.getElementById('calculate-cost').addEventListener('click', function () {
 
@@ -24,16 +25,20 @@ document.getElementById('calculate-cost').addEventListener('click', function () 
     totalExpences.innerText = totalCost;
 
 
+    // cath income field 
+    const previousIncomeAmount = document.getElementById('income-amount').value;
+    const newIncomeAmount = parseFloat(previousIncomeAmount);
+    // console.log(newIncomeAmount);
 
+    // catch balance text 
+    const previousBalanceAmont = document.getElementById('balance');
+    const newBalanceAmount = parseFloat(previousBalanceAmont.innerText);
+    console.log(newBalanceAmount);
+    const remainBalance = newIncomeAmount - totalCost;
 
+    // set the value of remaion balance 
 
-
-
-
-
-
-
-
+    previousBalanceAmont.innerText = remainBalance;
 
 
 
